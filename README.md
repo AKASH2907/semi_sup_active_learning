@@ -2,10 +2,13 @@
 Official repo for AAAI-24 Paper - Semi-Supervised Active Learning for Video Action Detection
 
 The setup can be done using anaconda3 on Ubuntu (>18) using the provided spec-file
+```
     $ conda create --name <env> --file spec-file.txt
+```
 
 The dataset is expected to be in 'Datasets/UCF101' (as downloaded from the main dataset website)
-Pretrained charades weights should be in 'main_weights' folder.
+
+Pretrained charades weights: https://github.com/piergiaj/pytorch-i3d/tree/master/models
 
 
 ```````````````````
